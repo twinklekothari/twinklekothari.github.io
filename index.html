@@ -1,1 +1,109 @@
-<!DOCTYPE html><html><head><title>Twinkle Portfolio</title></head><body><h1>Twinkle Kothari</h1></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Twinkle Kothari | Aerospace Researcher</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Twinkle Kothari</h1>
+      <p>Ph.D. Researcher | Aerospace Engineering | Beam Lattice Structures</p>
+      <a href="assets/Twinkle_Resume.pdf" class="btn" download>Download Resume</a>
+    </div>
+  </header>
+
+  <nav class="navbar">
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#publications">Publications</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="section">
+    <div class="about-grid">
+      <div>
+        <h2>About Me</h2>
+        <p>I am Twinkle Kothari, a doctoral researcher in Aerospace Engineering at the University of Texas at Arlington, affiliated with the <strong>AIM³ Lab</strong> under the guidance of <strong>Dr. Xin Liu</strong>, and working with <strong>UTARI – IPPM</strong>.</p>
+        <p>My Ph.D. research focuses on beam lattice metamaterials, finite element analysis, multiscale modeling, and mechanical testing. I contributed to a <strong>NASA-funded project</strong> on tow-steered laminates in collaboration with <strong>Purdue University</strong> and <strong>AnalySwift Inc.</strong>.</p>
+        <p>I enjoy solving complex structural challenges through a combination of simulation, validation, and collaborative research.</p>
+      </div>
+      <img src="assets/profile.jpg" alt="Twinkle Kothari" />
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="card-grid">
+      <div class="card">
+        <img src="assets/nasa_phase1.jpg" alt="NASA Phase I" />
+        <h3>NASA Tow-Steered Laminates</h3>
+        <p>Built simulation tools and GUI for thermoelastic analysis in collaboration with Purdue and AnalySwift.</p>
+      </div>
+      <div class="card">
+        <img src="assets/beam_lattice.jpg" alt="Beam Lattice" />
+        <h3>Ph.D. Lattice Research</h3>
+        <p>Experimental and computational modeling of BCC lattices with I-beam reinforcements.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="section">
+    <h2>Experience</h2>
+    <ul>
+      <li><strong>Project Assistant</strong>, IISc Bangalore — CMC fabrication, SEM, image processing (2018–2020)</li>
+      <li><strong>Intern</strong>, Mercedes-Benz R&D — Fuel slosh simulation using OpenFOAM (2017)</li>
+      <li><strong>IAESTE Intern</strong>, Univ. of Novi Sad — CFD studies in StarCCM+ & OpenFOAM (2016)</li>
+    </ul>
+  </section>
+
+  <section id="education" class="section">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>Ph.D., Aerospace Engineering</strong>, UTA (2023–2026, Expected) — GPA: 3.563</li>
+      <li><strong>M.S., Aerospace Engineering</strong>, UTA (2020–2022) — GPA: 3.625</li>
+      <li><strong>B.Tech, Aeronautical Engineering</strong>, Manipal (2013–2017) — GPA: 3.276</li>
+    </ul>
+  </section>
+
+  <section id="publications" class="section">
+    <h2>Publications</h2>
+    <ul>
+      <li><a href="https://doi.org/10.1016/j.compstruct.2025.117123">Reinforced I-beam BCC lattices – Composite Structures, 2025</a></li>
+      <li><a href="https://www.researchgate.net/publication/377784864">Multiscale modeling of BCC lattices – AIAA SciTech, 2024</a></li>
+      <li><a href="https://mavmatrix.uta.edu/mechaerospace_theses/960/">Tow-Steered Laminate Design Tool – Thesis, 2022</a></li>
+    </ul>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Technical Software Experience</h2>
+    <div class="skills-grid">
+      <div><h4>FEA & Simulation</h4><p>Abaqus, Patran/Nastran, HyperWorks, OpenFOAM, Wolfram Mathematica</p></div>
+      <div><h4>Scripting & Analysis</h4><p>Python, MATLAB, PCL</p></div>
+      <div><h4>Modeling & Docs</h4><p>SolidWorks, LaTeX (Overleaf)</p></div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Get in Touch</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="_replyto" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p>Email: <a href="mailto:txk5319@mavs.uta.edu">txk5319@mavs.uta.edu</a> | <a href="https://linkedin.com/in/twinklekothari0223">LinkedIn</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Twinkle Kothari</p>
+    <div id="backToTop" onclick="scrollToTop()">↑ Back to Top</div>
+  </footer>
+</body>
+</html>
