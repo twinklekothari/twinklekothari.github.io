@@ -259,3 +259,43 @@ footer {
 .btn-primary:hover {
   background: #005f8a;
 }
+.about-section {
+  background: #ffffff;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-photo {
+  flex: 1;
+  text-align: right;
+}
+
+.about-photo img {
+  max-width: 100%;
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-photo {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
